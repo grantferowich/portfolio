@@ -1,14 +1,16 @@
 import React from 'react'
+import './About.css'
+import GrantFerowich from './Grant-Ferowich-circle.png'
 
 export default function About() {
   return (
-    <div>
+    <div className='about-component'>
 
-        <h2>Grant Ferowich</h2>
-        <h2>Full Stack Engineer</h2>
-        <h3>Chicago-born. Wake Forest Demon Deacon. Full Stack Engineer. Researcher.</h3>
-        <h5>What companies have paid me to do: Web application engineering. Automate processes. Business process optimization. Robotic process automation. </h5>
-        <h5>What I have been up to lately: Epistemica-X, Minesweeper, Tic Tac Toe, <a href="https://docs.google.com/spreadsheets/d/15zHGNvYy0-NMx6YYduk3UVvPFTXsam7YO1OQzeq2c7s/edit#gid=0" target="_blank" rel='noopener'>data structures and algorithms</a>, system design.</h5>
+        <h1>Grant Ferowich</h1>
+        <img src={GrantFerowich} alt='Grant-Ferowich-headshot' />
+        <h2>Chicago-born. Wake Forest Demon Deacon. Full Stack Engineer. Researcher.</h2>
+        <h3>What companies have paid me to do: Web application engineering. Automate processes. Business process optimization. Robotic process automation. </h3>
+        <h3>What I have been up to lately: Epistemica-X, Minesweeper, Tic Tac Toe, <a href="https://docs.google.com/spreadsheets/d/15zHGNvYy0-NMx6YYduk3UVvPFTXsam7YO1OQzeq2c7s/edit#gid=0" target="_blank" rel='noreferrer'>data structures and algorithms</a>, system design.</h3>
     </div>
   )
 }

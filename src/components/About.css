@@ -1,0 +1,19 @@
+.about-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    color: white;
+}
+
+.about-component h2 {
+    text-align: left;
+    font-size: 40;
+}
+
+a {
+    color: #CFB35B; 
+}
